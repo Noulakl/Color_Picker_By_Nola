@@ -1,6 +1,7 @@
 *{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     box-sizing: border-box;
+    user-select: none;
 }
 body, html{
     margin: 0;
@@ -13,7 +14,8 @@ header{
 }
 
 header button,
-header select {
+header select,
+.btn {
     border: .1rem solid #D1D5DB ;
     border-radius: .3rem;
     font-size: .8rem;
@@ -32,14 +34,21 @@ header,
 footer{
     box-shadow: 0 0 .7em #374151;
 }
-
+.instruction{
+    border-radius: .5rem;
+    box-shadow: 0 2px #374151; ;
+}
+.btn{
+    display: inline-block;
+}
 /* Typography */
 
 footer h3{
     margin: 0;
     font-size: 1rem;
-    font-weight: normal;
+    font-weight: 500;
     color: #374151;
+    align-self: center;
 }
 /* Select */
 option{

@@ -24,8 +24,21 @@ main{
 }
 footer{
     grid-area: foot;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 .5em;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    text-align: center;
+}
+.instruction{
+    grid-column: 1/-1;
+    align-self: center;
+    margin: auto;
+    width: 60vw;
+    text-align: center;
+}
+@media (min-width:1080px) {
+    header form{
+        width: 100vw;
+        display: flex;
+        justify-content: space-evenly;
+    }
 }
