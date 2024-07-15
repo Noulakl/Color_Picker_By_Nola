@@ -1,0 +1,47 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+body, html{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+header{
+    background-color: white;
+}
+
+header button,
+header select {
+    border: .1rem solid #D1D5DB ;
+    border-radius: .3rem;
+    font-size: .8rem;
+    font-weight: bold;
+    color: #374151;
+    padding: .68em .81em;
+    background-color: #FFFFFF;
+    position: relative;
+}
+
+footer{
+    background-color: white;
+}
+
+header, 
+footer{
+    box-shadow: 0 0 .7em #374151;
+}
+
+/* Typography */
+
+footer h3{
+    margin: 0;
+    font-size: 1rem;
+    font-weight: normal;
+    color: #374151;
+}
+/* Select */
+option{
+    font-weight: bold;
+}

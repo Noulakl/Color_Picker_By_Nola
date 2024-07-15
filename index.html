@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./layout.css">
+    <title>Color Picker</title>
+</head>
+<body>
+    <header>
+        <form id="color-form-setting">
+            <input type="color" name="colors" id="color-picker">
+            <select name="scheme" id="scheme-mode">
+                <option value="Monochrome">Monochrome</option>
+                <option value="Monochrome-dark">Monochrome-dark</option>
+                <option value="Monochrome-light">Monochrome-light</option>
+                <option value="Analogic">Analogic</option>
+                <option value="Complement">Complement</option>
+                <option value="Analogic-complement">Analogic-complement</option>
+                <option value="Triad">Triad</option>
+                <option value="quad">Quad</option>
+            </select>
+                <button id="get-colorScheme-btn">Get color scheme</button>
+        </form>
+    </header>
+    <main id="main-section">
+        <!-- The color bars go here -->
+    </main>
+    <footer id="footer-section">
+        <!-- The hexes for each color go here -->
+    </footer>
+    <script type="module" src="./index.js"></script>
+</body>
+</html>

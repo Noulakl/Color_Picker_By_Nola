@@ -1,0 +1,31 @@
+body{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 50px 1fr 50px;
+    grid-template-areas:
+    "head head head head head"
+    "main main main main main"
+    "foot foot foot foot foot";
+}
+header{
+    grid-area: head;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+form{
+    padding: 0;
+    margin: 0;
+}
+main{
+    grid-area: main;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+footer{
+    grid-area: foot;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 .5em;
+}
